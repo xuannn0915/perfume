@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D'PERFUME</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/product.min.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid container">
+        <!-- logo pic -->
+        <a class="navbar-brand" href="./index.html">
+          <img src="./Pic/d’Perfume@2x.png" class="logo" alt="logo" />
+        </a>
+
+        <!-- mobile navbar collapse  -->
+        <div class="navbarList-collapse d-flex align-items-center">
+          <div class="shoppingCart">
+            <div class="position-relative">
+              <i
+                class="fa-solid fa-cart-shopping d-lg-none"
+                style="color: #8d8d8d"
+              ></i>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary text-white d-lg-none d-block"
+              >
+                3
+                <span class="visually-hidden"></span>
+              </span>
+            </div>
+          </div>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars" style="color: #8d8d8d"></i>
+          </button>
+        </div>
+
+        <!-- Navbar List -->
+        <div
+          class="navbarList collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item text-lg-start text-center">
+              <a
+                class="nav-link link-dark fs-5 fw-light"
+                aria-current="page"
+                href="./productPage.html"
+              >
+                <i
+                  class="fa-solid fa-shop d-none d-lg-inline-block"
+                  style="color: #8d8d8d"
+                ></i>
+                Product
+              </a>
+            </li>
+            <li class="nav-item text-lg-start text-center">
+              <a class="nav-link link-dark fs-5 fw-light" href="#">
+                <i
+                  class="fa-solid fa-user d-none d-lg-inline-block"
+                  style="color: #8d8d8d"
+                ></i>
+                Log in
+              </a>
+            </li>
+            <li class="nav-item text-lg-start text-center">
+              <a class="nav-link link-dark fs-5 fw-light" href="#">
+                <i
+                  class="fa-solid fa-heart d-none d-lg-inline-block"
+                  style="color: #8d8d8d"
+                ></i>
+                Whishlist
+              </a>
+            </li>
+            <li class="nav-item text-lg-start text-center">
+              <a class="nav-link link-dark fs-5 fw-light" href="#">
+                <i
+                  class="fa-solid fa-cart-shopping d-none d-lg-inline-block"
+                  style="color: #8d8d8d"
+                ></i>
+                Cart(3)
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Brand -->
+    <div class="brandList bg-primary d-lg-block d-none">
+      <div class="container">
+        <ul class="d-flex align-items-center">
+          <li class="brandName">
+            <a href="#" class="text-white fs-5-r">CHANEL</a>
+          </li>
+          <li class="brandName">
+            <a href="#" class="text-white fs-5-r">Jo Malone</a>
+          </li>
+          <li class="brandName">
+            <a href="#" class="text-white fs-5-r">Curology</a>
+          </li>
+          <li class="brandName">
+            <a href="#" class="text-white fs-5-r">Dior</a>
+          </li>
+          <li class="brandName">
+            <a href="#" class="text-white fs-5-r">Chloe</a>
+          </li>
+          <li class="brandName">
+            <a href="#" class="text-white fs-5-r">ZARA</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ProductList -->
+    <div class="container">
+      <ul class="productList row">
+        <li class="item col-lg-3 col-6">
+          <div class="card border-0">
+            <div class="pic-box">
+              <img
+                src="https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=679&q=80"
+                  class="card-pic overflow-hidden"
+                  alt="product pic"
+                />
+            </div>
+            <div class="card-body p-0">
+              <h3 class="card-title fs-4-m mb-0">Poppy & Barley</h3>
+              <p class="card-text fs-6-r">Jo Malone</p>
+              <p class="price fs-6-r">
+                NT$1,380
+                <span class="text-dark text-decoration-line-through fs-6-l">
+                  NT$1,580</span
+                >
+              </p>
+              <div class="buttons d-block">
+                <a href="#">
+                  <i class="fa-solid fa-heart fa-lg" style="color: #916019"></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="fa-solid fa-cart-shopping fa-lg"
+                    style="color: #916019"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item col-lg-3 col-6">
+          <div class="card border-0">
+            <div class="pic-box position-relative">
+              <img
+                src="https://images.unsplash.com/photo-1530630458144-014709e10016?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                class="card-pic"
+                alt="product pic"
+              />
+            </div>
+            <div class="card-body p-0">
+              <h3 class="card-title fs-4-m mb-0">Poppy & Barley</h3>
+              <p class="card-text fs-6-r">Jo Malone</p>
+              <p class="price fs-6-r">
+                NT$1,380
+                <span class="text-dark text-decoration-line-through fs-6-l">
+                  NT$1,580</span
+                >
+              </p>
+              <div class="buttons d-block">
+                <a href="#">
+                  <i class="fa-solid fa-heart fa-lg" style="color: #916019"></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="fa-solid fa-cart-shopping fa-lg"
+                    style="color: #916019"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item col-lg-3 col-6">
+          <div class="card border-0">
+            <div class="pic-box">
+              <img
+                src="https://images.unsplash.com/photo-1566977776052-6e61e35bf9be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                class="card-pic"
+                alt="product pic"
+              />
+            </div>
+            <div class="card-body p-0">
+              <h3 class="card-title fs-4-m mb-0">Poppy & Barley</h3>
+              <p class="card-text fs-6-r">Jo Malone</p>
+              <p class="price fs-6-r">NT$1,380</p>
+              <div class="buttons d-block">
+                <a href="#">
+                  <i class="fa-solid fa-heart fa-lg" style="color: #916019"></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="fa-solid fa-cart-shopping fa-lg"
+                    style="color: #916019"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item col-lg-3 col-6">
+          <div class="card border-0">
+            <div class="pic-box">
+              <img
+                src="https://images.unsplash.com/photo-1578996834254-13d1b661a5ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+                class="card-pic"
+                alt="product pic"
+              />
+            </div>
+            <div class="card-body p-0">
+              <h3 class="card-title fs-4-m mb-0">Poppy & Barley</h3>
+              <p class="card-text fs-6-r">Jo Malone</p>
+              <p class="price fs-6-r">NT$1,380</p>
+              <div class="buttons d-block">
+                <a href="#">
+                  <i class="fa-solid fa-heart fa-lg" style="color: #916019"></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="fa-solid fa-cart-shopping fa-lg"
+                    style="color: #916019"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item col-lg-3 col-6">
+          <div class="card border-0">
+            <div class="pic-box">
+              <img
+                src="https://images.unsplash.com/photo-1582211594533-268f4f1edcb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                class="card-pic"
+                alt="product pic"
+              />
+            </div>
+            <div class="card-body p-0">
+              <h3 class="card-title fs-4-m mb-0">Poppy & Barley</h3>
+              <p class="card-text fs-6-r">Jo Malone</p>
+              <p class="price fs-6-r">NT$1,380</p>
+              <div class="buttons d-block">
+                <a href="#">
+                  <i class="fa-solid fa-heart fa-lg" style="color: #916019"></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="fa-solid fa-cart-shopping fa-lg"
+                    style="color: #916019"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item col-lg-3 col-6">
+          <div class="card border-0">
+            <div class="pic-box">
+              <img
+                src="https://images.unsplash.com/photo-1585120040315-2241b774ad0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                class="card-pic"
+                alt="product pic"
+              />
+            </div>
+            <div class="card-body p-0">
+              <h3 class="card-title fs-4-m mb-0">Poppy & Barley</h3>
+              <p class="card-text fs-6-r">Jo Malone</p>
+              <p class="price fs-6-r">NT$1,380</p>
+              <div class="buttons d-block">
+                <a href="#">
+                  <i class="fa-solid fa-heart fa-lg" style="color: #916019"></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="fa-solid fa-cart-shopping fa-lg"
+                    style="color: #916019"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item col-lg-3 col-6">
+          <div class="card border-0">
+            <div class="pic-box">
+              <img
+                src="https://images.unsplash.com/photo-1592842414746-a2fd2101381f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+                class="card-pic"
+                alt="product pic"
+              />
+            </div>
+            <div class="card-body p-0">
+              <h3 class="card-title fs-4-m mb-0">Poppy & Barley</h3>
+              <p class="card-text fs-6-r">Jo Malone</p>
+              <p class="price fs-6-r">NT$1,380</p>
+              <div class="buttons d-block">
+                <a href="#">
+                  <i class="fa-solid fa-heart fa-lg" style="color: #916019"></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="fa-solid fa-cart-shopping fa-lg"
+                    style="color: #916019"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item col-lg-3 col-6">
+          <div class="card border-0">
+            <div class="pic-box">
+              <img
+                src="https://images.unsplash.com/photo-1544468266-6a8948003cd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80"
+                class="card-pic"
+                alt="product pic"
+              />
+            </div>
+            <div class="card-body p-0">
+              <h3 class="card-title fs-4-m mb-0">Poppy & Barley</h3>
+              <p class="card-text fs-6-r">Jo Malone</p>
+              <p class="price fs-6-r">NT$1,380</p>
+              <div class="buttons d-block">
+                <a href="#">
+                  <i class="fa-solid fa-heart fa-lg" style="color: #916019"></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="fa-solid fa-cart-shopping fa-lg"
+                    style="color: #916019"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item col-lg-3 col-6">
+          <div class="card border-0">
+            <div class="pic-box">
+              <img
+                src="https://images.unsplash.com/photo-1587304883108-8bbeaac37125?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+                class="card-pic"
+                alt="product pic"
+              />
+            </div>
+            <div class="card-body p-0">
+              <h3 class="card-title fs-4-m mb-0">Poppy & Barley</h3>
+              <p class="card-text fs-6-r">Jo Malone</p>
+              <p class="price fs-6-r">NT$1,380</p>
+              <div class="buttons d-block">
+                <a href="#">
+                  <i class="fa-solid fa-heart fa-lg" style="color: #916019"></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="fa-solid fa-cart-shopping fa-lg"
+                    style="color: #916019"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item col-lg-3 col-6">
+          <div class="card border-0">
+            <div class="pic-box">
+              <img
+                src="https://images.unsplash.com/photo-1592247691114-69a06342531a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                class="card-pic"
+                alt="product pic"
+              />
+            </div>
+            <div class="card-body p-0">
+              <h3 class="card-title fs-4-m mb-0">Poppy & Barley</h3>
+              <p class="card-text fs-6-r">Jo Malone</p>
+              <p class="price fs-6-r">NT$1,380</p>
+              <div class="buttons d-block">
+                <a href="#">
+                  <i class="fa-solid fa-heart fa-lg" style="color: #916019"></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="fa-solid fa-cart-shopping fa-lg"
+                    style="color: #916019"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item col-lg-3 col-6">
+          <div class="card border-0">
+            <div class="pic-box">
+              <img
+                src="https://images.unsplash.com/photo-1559264729-91549dddfc45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+                class="card-pic"
+                alt="product pic"
+              />
+            </div>
+            <div class="card-body p-0">
+              <h3 class="card-title fs-4-m mb-0">Poppy & Barley</h3>
+              <p class="card-text fs-6-r">Jo Malone</p>
+              <p class="price fs-6-r">NT$1,380</p>
+              <div class="buttons d-block">
+                <a href="#">
+                  <i class="fa-solid fa-heart fa-lg" style="color: #916019"></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="fa-solid fa-cart-shopping fa-lg"
+                    style="color: #916019"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item col-lg-3 col-6">
+          <div class="card border-0">
+            <div class="pic-box">
+              <img
+                src="https://images.unsplash.com/photo-1594913366159-1832cfbe7ca1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                class="card-pic"
+                alt="product pic"
+              />
+            </div>
+            <div class="card-body p-0">
+              <h3 class="card-title fs-4-m mb-0">Poppy & Barley</h3>
+              <p class="card-text fs-6-r">Jo Malone</p>
+              <p class="price fs-6-r">NT$1,380</p>
+              <div class="buttons d-block">
+                <a href="#">
+                  <i class="fa-solid fa-heart fa-lg" style="color: #916019"></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="fa-solid fa-cart-shopping fa-lg"
+                    style="color: #916019"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- subscribe -->
+    <div class="subscribe d-flex">
+      <div class="container mt-auto">
+        <div class="row h-100">
+          <div class="col-lg-4 col-md-7">
+            <div class="title text-dark fs-2-b">
+              記得 <br />訂閱以獲取更多資訊！
+            </div>
+            <form action="#">
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control border-primary border-2 fs-6-r"
+                  placeholder="Your email address"
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+                <button
+                  class="btn btn-primary fs-6-m"
+                  type="button"
+                  id="button-addon1"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer bg-primary">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div
+          class="footer-copyright w-lg-50 w-100 d-flex align-items-center justify-content-between justify-content-lg-start"
+        >
+          <a href="./index.html">
+            <img src="./Pic/d’Perfumew@2x.png" alt="logo"
+          /></a>
+          <p class="text-white fs-7-m">© 2020. All Rights Reserved.</p>
+        </div>
+        <ul class="footer-nav w-50 d-lg-flex d-none">
+          <li>
+            <a href="./productPage.html" class="text-white fs-5-l">Product</a>
+          </li>
+          <li><a href="#" class="text-white fs-5-l">Blog</a></li>
+          <li><a href="#" class="text-white fs-5-l">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- fontawesome icon -->
+    <script
+      src="https://kit.fontawesome.com/e04d5b3e23.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

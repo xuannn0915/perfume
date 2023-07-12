@@ -12036,6 +12036,60 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.navbarList-collapse .shoppingCart {
+  margin-right: 12px;
+}
+.navbarList-collapse span {
+  font-size: 12px;
+  padding: 2px 4px;
+}
+
+.navbarList li {
+  margin-right: 16px;
+}
+.navbarList li:last-child {
+  margin-right: 0;
+}
+
+.logo {
+  max-width: 128px;
+}
+
+.subscribe {
+  background-image: url(https://images.unsplash.com/photo-1532413992378-f169ac26fff0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
+  padding-bottom: 132px;
+}
+.subscribe .title {
+  margin-bottom: 20px;
+}
+.subscribe input {
+  padding: 12px 16px;
+}
+.subscribe button {
+  padding: 0 16px;
+}
+.subscribe button:hover {
+  background-color: #6C4700;
+}
+
+.footer {
+  padding: 20px 0;
+}
+.footer img {
+  width: 128px;
+  margin-right: 20px;
+}
+.footer li {
+  margin-right: 36px;
+}
+.footer li:last-child {
+  margin-right: 0;
+}
+
 body {
   font-family: "SF Pro Text", "PingFang TC";
 }
