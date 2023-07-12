@@ -1,0 +1,178 @@
+.banner {
+  height: 85vh;
+  background-image: url(https://images.unsplash.com/photo-1588159343745-445ae0b16383?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25% center;
+  margin-bottom: 60px;
+}
+.banner p {
+  margin-bottom: 16px;
+}
+.banner .banner-btn {
+  width: 80%;
+  padding: 12px 0;
+}
+.banner .banner-btn:hover {
+  background-color: rgba(255, 255, 255, 0.3019607843);
+}
+
+@media (max-width: 990px) {
+  .banner {
+    margin-bottom: 40px;
+  }
+  .banner .banner-btn {
+    width: 100%;
+  }
+}
+.product {
+  margin-bottom: 60px;
+}
+
+.item img {
+  height: 555px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+.item p {
+  margin-bottom: 16px;
+}
+
+.item-last img {
+  height: 1080px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+.item-last h3 {
+  margin-bottom: 4px;
+}
+.item-last .steps {
+  margin-bottom: 52px;
+}
+.item-last .steps-btn {
+  padding: 18px 0;
+}
+.item-last .steps-btn:hover {
+  background: rgba(0, 0, 0, 0.0509803922);
+}
+
+.introBox {
+  position: relative;
+}
+
+@media (max-width: 1920px) {
+  .intro {
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 990px) {
+  .intro {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0);
+  }
+  .item {
+    margin-bottom: 32px;
+  }
+  .item img {
+    height: 350px;
+    margin-bottom: 8px;
+  }
+  .item p {
+    margin-bottom: 8px;
+  }
+  .item-last img {
+    height: 680px;
+    margin-bottom: 8px;
+  }
+  .item-last .steps {
+    margin-bottom: 20px;
+  }
+}
+.shop {
+  padding: 40px 0;
+  margin-bottom: 60px;
+}
+.shop .card-pic {
+  height: 540px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  margin-bottom: 8px;
+}
+.shop .card {
+  background-color: #e0e0e0;
+  border: none;
+}
+.shop .block {
+  width: 100%;
+  opacity: 0;
+  transition: 0.8s;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 540px;
+}
+
+.card-top:hover .block {
+  opacity: 1;
+  transition: 0.8s;
+}
+
+@media (max-width: 990px) {
+  .shop {
+    padding: 32px 0;
+    margin-bottom: 40px;
+  }
+  .shop .item {
+    margin-bottom: 24px;
+  }
+  .shop img {
+    height: 350px;
+    -o-object-position: center 60%;
+       object-position: center 60%;
+  }
+  .shop .block {
+    height: 350px;
+  }
+  .shop .card-text {
+    margin-bottom: 4px;
+  }
+  .shop .price {
+    margin-bottom: 0;
+  }
+}
+.recycle {
+  margin-bottom: 60px;
+}
+.recycle img {
+  height: 520px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+.recycle .subtitle {
+  margin-bottom: 16px;
+}
+.recycle p {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 990px) {
+  .recycle {
+    margin-bottom: 40px;
+  }
+  .recycle img, .recycle .subtitle, .recycle p {
+    margin-bottom: 8px;
+  }
+}/*# sourceMappingURL=index.css.map */
