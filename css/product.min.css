@@ -24,10 +24,6 @@
   margin-bottom: 2px;
   overflow: hidden;
 }
-.productList .pic-box:hover .card-pic {
-  transform: scale(1.2, 1.2);
-  transition: 0.5s;
-}
 .productList .card-pic {
   width: 100%;
   height: 100%;
@@ -35,6 +31,10 @@
      object-fit: cover;
   -o-object-position: center center;
      object-position: center center;
+  transition: 0.5s;
+}
+.productList .card-pic:hover {
+  transform: scale(1.2, 1.2);
   transition: 0.5s;
 }
 .productList .price {
@@ -53,5 +53,8 @@
   }
   .productList .card-title {
     font-size: 20px;
+  }
+  .productList .pic-box {
+    height: 165px;
   }
 }/*# sourceMappingURL=product.min.css.map */
