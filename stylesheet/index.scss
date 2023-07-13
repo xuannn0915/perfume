@@ -137,18 +137,21 @@
   .card {
     background-color: #e0e0e0;
     border: none;
+    &:hover {
+      cursor: pointer;
+      .card-pic{
+        transform: scale(1.2,1.2);
+      }
+      .card-top{
+        overflow: hidden;
+      }
+    }
   }
 
   .block {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     height: 540px;
-  }
-}
-
-.card{
-  &:hover {
-    cursor: pointer;
   }
 }
 

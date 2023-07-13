@@ -115,14 +115,19 @@
   background-color: #e0e0e0;
   border: none;
 }
+.shop .card:hover {
+  cursor: pointer;
+}
+.shop .card:hover .card-pic {
+  transform: scale(1.2, 1.2);
+}
+.shop .card:hover .card-top {
+  overflow: hidden;
+}
 .shop .block {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   height: 540px;
-}
-
-.card:hover {
-  cursor: pointer;
 }
 
 @media (max-width: 990px) {
