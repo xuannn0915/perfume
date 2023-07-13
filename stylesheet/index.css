@@ -28,44 +28,41 @@
 .product {
   margin-bottom: 60px;
 }
-
-.item img {
+.product .item img {
   height: 555px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center center;
      object-position: center center;
 }
-.item p {
+.product .item p {
   margin-bottom: 16px;
 }
-
-.item-last img {
+.product .item-last img {
   height: 1080px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center center;
      object-position: center center;
 }
-.item-last h3 {
+.product .item-last h3 {
   margin-bottom: 4px;
 }
-.item-last .steps {
+.product .item-last .steps {
   margin-bottom: 52px;
 }
-.item-last .steps-btn {
+.product .item-last .steps-btn {
   padding: 18px 0;
 }
-.item-last .steps-btn:hover {
+.product .item-last .steps-btn:hover {
   background: rgba(0, 0, 0, 0.0509803922);
 }
-
-.introBox {
+.product .introBox {
   position: relative;
 }
 
 @media (max-width: 1920px) {
-  .intro {
+  .product .intro {
     width: 65%;
     position: absolute;
     top: 50%;
@@ -74,28 +71,28 @@
   }
 }
 @media (max-width: 990px) {
-  .intro {
+  .product .intro {
     width: 100%;
     position: relative;
     top: 0;
     left: 0;
     transform: translate(0);
   }
-  .item {
+  .product .item {
     margin-bottom: 32px;
   }
-  .item img {
+  .product .item img {
     height: 350px;
     margin-bottom: 8px;
   }
-  .item p {
+  .product .item p {
     margin-bottom: 8px;
   }
-  .item-last img {
+  .product .item-last img {
     height: 680px;
     margin-bottom: 8px;
   }
-  .item-last .steps {
+  .product .item-last .steps {
     margin-bottom: 20px;
   }
 }
@@ -115,14 +112,14 @@
   background-color: #e0e0e0;
   border: none;
 }
-.shop .item:hover {
+.shop .card:hover {
   cursor: pointer;
 }
-.shop .item:hover .card-pic {
+.shop .card:hover .card-pic {
   transform: scale(1.2, 1.2);
   transition: 0.5s;
 }
-.shop .item:hover .card-top {
+.shop .card:hover .card-top {
   overflow: hidden;
 }
 .shop .block {
@@ -136,7 +133,7 @@
     padding: 32px 0;
     margin-bottom: 40px;
   }
-  .shop .item {
+  .shop .card {
     margin-bottom: 24px;
   }
   .shop .card-pic {
@@ -175,7 +172,9 @@
   .recycle {
     margin-bottom: 40px;
   }
-  .recycle img, .recycle .subtitle, .recycle p {
+  .recycle img,
+  .recycle .subtitle,
+  .recycle p {
     margin-bottom: 8px;
   }
 }/*# sourceMappingURL=index.css.map */
