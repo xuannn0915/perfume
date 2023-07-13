@@ -25,12 +25,9 @@
 //productList
 .productList {
   margin: 80px 0;
-
-  .item{
-    margin-bottom: 60px;
-  }
   
   .card{
+    margin-bottom: 60px;
     &:hover {
       cursor: pointer;
       .card-pic{
@@ -68,7 +65,7 @@
   .productList {
     margin: 100px 0 40px 0;
 
-    .item {
+    .card {
       margin-bottom: 30px;
     }
 
