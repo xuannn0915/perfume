@@ -136,7 +136,7 @@
   .shop .item {
     margin-bottom: 24px;
   }
-  .shop img {
+  .shop .card-pic {
     height: 350px;
     -o-object-position: center 60%;
        object-position: center 60%;

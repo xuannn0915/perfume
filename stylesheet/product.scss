@@ -2,15 +2,19 @@
 .brandList {
   a {
     display: inline-block;
-    border-bottom: 2px solid transparent;
-    &:hover {
-      border-bottom: 2px solid #fff;
+    padding: 12px 16px;
+    color: #fff;
+    &:hover{
+      background-color: #fff;
+      color: #916000;
     }
   }
-
+  .active{
+    color: #916000;
+    background: #fff;
+  }
+  
   .brandName {
-    padding: 12px 0;
-    margin-right: 32px;
     &:last-child {
       margin-right: 0;
     }
@@ -64,16 +68,31 @@
       font-size: 20px;
     }
 
-    .pic-box{
+    .pic-box {
       height: 165px;
     }
   }
 }
 
-
-
 // pagination
-.pagination{
+.navigation {
   margin-bottom: 60px;
+
+  .page-item {
+    padding: 8px 12px;
+    &:hover {
+      a {
+        border-bottom: 2px solid #ac8a46;
+      }
+    }
+  }
+  a {
+    border-bottom: 2px solid transparent;
+  }
 }
 
+@media (max-width:990px) {
+  .navigation{
+    margin-bottom: 40px;
+  }
+}

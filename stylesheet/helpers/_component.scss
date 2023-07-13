@@ -1,5 +1,5 @@
 // navbar
-.navbarList-collapse {
+.navbarList-mobile {
   .shoppingCart {
     margin-right: 12px;
   }
@@ -7,6 +7,12 @@
   span {
     font-size: 12px;
     padding: 2px 4px;
+  }
+
+  button{
+    &:hover{
+      background-color: #E0E0E0;
+    }
   }
 }
 .navbarList{
@@ -19,6 +25,12 @@
 }
 .logo {
   max-width: 128px;
+}
+
+@media (max-width:990px) {
+  .navbarList{
+    border-bottom: 1px solid #E0E0E0;
+  }
 }
 
 
