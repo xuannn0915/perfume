@@ -115,14 +115,14 @@
   background-color: #e0e0e0;
   border: none;
 }
-.shop .card:hover {
+.shop .item:hover {
   cursor: pointer;
 }
-.shop .card:hover .card-pic {
+.shop .item:hover .card-pic {
   transform: scale(1.2, 1.2);
   transition: 0.5s;
 }
-.shop .card:hover .card-top {
+.shop .item:hover .card-top {
   overflow: hidden;
 }
 .shop .block {
