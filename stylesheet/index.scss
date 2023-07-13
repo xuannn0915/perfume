@@ -141,19 +141,14 @@
 
   .block {
     width: 100%;
-    opacity: 0;
-    transition: 0.8s;
     background-color: rgba(0, 0, 0, 0.3);
     height: 540px;
   }
 }
 
-.card-top {
+.card{
   &:hover {
-    .block {
-      opacity: 1;
-      transition: 0.8s;
-    }
+    cursor: pointer;
   }
 }
 
