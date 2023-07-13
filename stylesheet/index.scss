@@ -5,8 +5,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 25% center;
-  margin-bottom: 60px;
-
+  margin: 60px 0;
+  
   p {
     margin-bottom: 16px;
   }
@@ -22,7 +22,7 @@
 
 @media (max-width: 990px) {
   .banner {
-    margin-bottom: 40px;
+    margin: 60px 0 40px 0;
 
     .banner-btn {
       width: 100%;

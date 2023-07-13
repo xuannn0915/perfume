@@ -1,4 +1,12 @@
 // navbar
+.navbar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+
 .navbarList-mobile {
   .shoppingCart {
     margin-right: 12px;
@@ -15,6 +23,7 @@
     }
   }
 }
+
 .navbarList{
   li{
     margin-right: 16px;
@@ -26,11 +35,12 @@
 
 .logo {
   max-width: 128px;
+  padding-left: 12px;
 }
 
 @media (max-width:990px) {
-  .navbarList{
-    border-bottom: 1px solid #E0E0E0;
+  .navbar{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
 }
 
